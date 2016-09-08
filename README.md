@@ -1,17 +1,21 @@
 # Lab 02 -- Chapter 01
 
 ## Define the following terms:
-* object – It holds both variables and methods. It can be represented as either you for someone and me for someone else.
-* class – The blueprint from which individual objects are created. 
-* instance – same as object. It refers to a specific object of a specific type. 
-* method – a collection of statements that are grouped together to perform an operation.
-* signature – a part of the method declaration.
-* parameter – It is what appears in the definition of the method. It refers to any declaration within the parentheses following the method/function name in a method/function declaration or definition.
-* type – When introducing it, give a full list of built-in data types.
-* state – It is more of a usage pattern rather than being a way to define a class’s properties.
-* source code – instructions that the programmer uses to build the program.
-* return value, - It defines and constrains the data type for the returned value from a method.
-* compiler –  it translates the code that is written by the programmer into instructions for the computer  to use. 
+* object : State or behavior (instance) of a class.
+* class: blueprint (guidelines) that defines how to create an object.
+* instance: Specific realization of any object.
+* method: A collection of statements, in a class, used to manipulate (mutators) or access (accessors) information from an object of that class (behaves like a function in mathematics).
+* signature(or heading): Name of the method and type of parameter. I.e. the following signature changes the size of the instance `box` of class `Box` and does not give an output.
+```
+void changeSize(Box box)
+```
+* parameter: An input of the method. I.e. `box` is the parameter in the example above.
+* type: Defines what values the parameter is allowed to be.
+* state: Set of values describing an object.
+* source code: Collection of written commands that compiles to create an executable program.
+* return value: Output of a method.
+* compiler: Transforms source code into computer readable language (forces computer to read the instructions).
+ 
 
 ## In Chapter 1 we have mentioned the data types int and String. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can check Appendix B, or look it up in another Java book or in an online Java language manual. One such manual is at [http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 Data types:
